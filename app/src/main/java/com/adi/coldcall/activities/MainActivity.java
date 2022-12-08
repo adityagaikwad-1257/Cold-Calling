@@ -6,7 +6,6 @@ import static com.adi.coldcall.Utils.getLastCallMade;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -176,7 +175,6 @@ public class MainActivity extends AppCompatActivity {
             viewModel.setLastCallNumber("+91" + phoneNumber);
 
             Utils.makeACall(phoneNumber, this);
-        } else
-            Toast.makeText(this, "Permission to call denied", Toast.LENGTH_SHORT).show();
+        }
     }
 }
