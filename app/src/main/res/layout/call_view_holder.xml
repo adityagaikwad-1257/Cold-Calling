@@ -62,6 +62,7 @@
                     <TextView
                         android:id="@+id/status"
                         android:text="@{call.status}"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:text="Not answered" />
@@ -83,6 +84,7 @@
 
                     <TextView
                         android:id="@+id/duration"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:text="Not answered" />
@@ -104,6 +106,7 @@
 
                     <TextView
                         android:id="@+id/date_and_time"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:text="Not answered" />
@@ -128,6 +131,7 @@
                     <TextView
                         android:id="@+id/remark"
                         android:text="@{call.remark}"
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:text="Not answered" />
